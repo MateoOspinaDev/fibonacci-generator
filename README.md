@@ -16,4 +16,6 @@ Antes de ejecutar el proyecto, asegúrate de tener lo siguiente instalado:
 - **Java 17** o superior.
 - **Maven**.
 - **MySQL** (configura las variables de entorno para la conexión a la base de datos).
-- Opcional: Docker (si deseas ejecutar el proyecto en un contenedor).
+
+- Adicionalmente debes tener la base de datos creada con el nombre "fibonacci_db"
+- Se debe configurar el application.properties con las credenciales de la base de datos
